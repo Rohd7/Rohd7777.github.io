@@ -1,0 +1,47 @@
+Words = {};
+Words.List = [];
+
+Words.List[0] = "headphones";
+Words.List[1] = "lion";
+Words.List[2] = "love";
+Words.List[3] = "letter";
+Words.List[4] = "book";
+Words.List[5] = "cup";
+Words.List[6] = "phone";
+Words.List[7] = "lever";
+Words.List[8] = "list";
+Words.List[9] = "hangman";
+Words.List[10] = "desk";
+Words.List[11] = "computer";
+Words.List[12] = "laptop";
+Words.List[13] = "glass";
+Words.List[14] = "hair";
+Words.List[15] = "staple";
+Words.List[16] = "printer";
+Words.List[17] = "hat";
+Words.List[18] = "pen";
+Words.List[19] = "chair";
+Words.List[20] = "paper";
+Words.List[21] = "drink";
+Words.List[22] = "eat";
+Words.List[23] = "shirt";
+Words.List[24] = "pants";
+Words.List[25] = "backpack";
+Words.List[26] = "supermarket";
+Words.List[27] = "flag";
+Words.List[28] = "clock";
+Words.List[29] = "coffee";
+Words.List[30] = "coat";
+Words.List[31] = "tie";
+Words.List[32] = "lock";
+Words.List[33] = "stairs";
+Words.List[34] = "corridor";
+Words.List[35] = "down";
+Words.List[36] = "sit";
+Words.List[37] = "hallway";
+Words.List[38] = "camera";
+Words.List[39] = "video";
+Words.List[40] = "especial";
+
+
+Words.Length = Words.List.length;

@@ -1,0 +1,97 @@
+<!Doctype html>
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet2.css">
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<script type="text/javascript" language="Javascript" src="js/desenhajs.js"></script>
+	<meta charset="UTF-8" lang="pt-BR">
+	<title>Hangman 3000</title>
+	
+</head>
+<body>
+
+
+	
+	<img id="logomenu" src="img/Forca3000black.png">
+	
+	<p id="showspans">
+		<span id="lives">6</span> Lives Left.
+		<br>
+		There are <span id="numLetters">0</span> Letters in this Word.
+	</p>
+	
+	<div id="canvaslimit">
+		<canvas id="canvas" width = "400px" height= "350px"></canvas>
+		<script>desenhaForca()</script>
+	
+	</div>
+	<br>
+	
+	<h1 id="WORD">_ _ _ _</h1>
+	
+	<div id="letters">
+		<div class="coluna1">
+			   <button onclick="disableButton(this.id)" class="botao" id="a">A</button>
+			   <button onclick="disableButton(this.id)" class="botao" id="b">B</button> 
+			   <button onclick="disableButton(this.id)" class="botao" id="c">C</button> 
+			   <button onclick="disableButton(this.id)" class="botao" id="d">D</button> 
+			   <button onclick="disableButton(this.id)" class="botao" id="e">E</button> 
+			   <button onclick="disableButton(this.id)" class="botao" id="f">F</button> 
+			   <button onclick="disableButton(this.id)" class="botao" id="g">G</button> 
+			   <button onclick="disableButton(this.id)" class="botao" id="h">H</button> 
+			   <button onclick="disableButton(this.id)" class="botao" id="i">I</button>
+		</div>
+		<div class="coluna2">
+			   <button onclick="disableButton(this.id)" class="botao" id="j">J</button>
+			   <button onclick="disableButton(this.id)" class="botao" id="k">K</button>
+			   <button onclick="disableButton(this.id)" class="botao" id="l">L</button>
+			   <button onclick="disableButton(this.id)" class="botao" id="m">M</button>
+			   <button onclick="disableButton(this.id)" class="botao" id="n">N</button>
+			   <button onclick="disableButton(this.id)" class="botao" id="o">O</button>
+			   <button onclick="disableButton(this.id)" class="botao" id="p">P</button>
+			   <button onclick="disableButton(this.id)" class="botao" id="q">Q</button>
+			   <button onclick="disableButton(this.id)" class="botao" id="r">R</button>
+		</div>
+		<div class="coluna3">
+			 <button onclick="disableButton(this.id)" class="botao" id="s">S</button> 
+			 <button onclick="disableButton(this.id)" class="botao" id="t">T</button> 
+			 <button onclick="disableButton(this.id)" class="botao" id="u">U</button> 
+			 <button onclick="disableButton(this.id)" class="botao" id="v">V</button> 
+			 <button onclick="disableButton(this.id)" class="botao" id="w">W</button> 
+			 <button onclick="disableButton(this.id)" class="botao" id="x">X</button>
+			 <button onclick="disableButton(this.id)" class="botao" id="y">Y</button>
+			 <button onclick="disableButton(this.id)" class="botao" id="z">Z</button>
+		</div>
+	</div>
+
+		
+	
+	
+	
+		<div class="menubotoes">
+			<a href="index.html"><input class="botoesgame" type="submit" name="menu" value="Menu"></a>
+			<a href="game.html"><input class="botoesgame" type="submit" name="newGame()" value="New Game!"></a>
+		</div>
+		
+		<script type="text/javascript" language="Javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" language="Javascript" src="js/wordbank.js"></script>
+	<script type="text/javascript" language="Javascript" src="js/controllerjs.js"></script>
+	<script type="text/javascript" language="Javascript" src="js/clickLetter.js"></script>
+	<script type="text/javascript" language="Javascript" src="js/disableButton.js"></script>
+	
+	
+		
+<footer>
+	<p> All Rights Reserved To GameSeed™</p>
+</footer>
+
+
+
+
+
+
+
+
+</body>
+</html>
